@@ -1,0 +1,24 @@
+{
+  "name": "ts-jest-puppeter-po",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --runInBand"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "@types/jest-environment-puppeteer": "^4.4.1",
+    "@types/puppeteer": "^5.4.3",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "jest": "^27.0.4",
+    "jest-puppeteer": "^5.0.4",
+    "puppeteer": "^9.1.1",
+    "ts-jest": "^27.0.3"
+  }
+}
